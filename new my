@@ -1,0 +1,40 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Card Example
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="" rel="stylesheet"/>
+  <link href="" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white rounded-lg shadow-lg max-w-sm">
+   <img alt="A person sitting on a dock looking at a lake with boats and mountains in the background" class="rounded-t-lg w-full" src="sk.avif"
+   <div class="p-6">
+    <div class="flex items-center space-x-2 text-gray-500 text-sm mb-2">
+     <span>
+      Nature
+     </span>
+     <span>
+      •
+     </span>
+     <span>
+      Life
+     </span>
+    </div>
+    <h2 class="text-2xl font-bold mb-2">
+     Lago di Braies
+    </h2>
+    <p class="text-gray-700 mb-4">
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam gravida vitae utam velit.
+    </p>
+    <button class="bg-blue-500 text-white px-4 py-2 rounded-full">
+     Read more
+    </button>
+   </div>
+  </div>
+ </body>
+</html>
